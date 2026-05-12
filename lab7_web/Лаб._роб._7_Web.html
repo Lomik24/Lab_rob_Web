@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота 7</title>
+    <link rel="stylesheet" href="style_lab_7.css">
+</head>
+<body class="light-theme">
+    <header>
+        <div class="header-content">
+            <h1 id="user-name-display">Олексій Крупчук</h1>
+            <p>Моя професія: Web-розробник</p>
+        </div>
+        <button id="theme-toggle">Тема</button>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">Про мене</a></li>
+            <li><a href="#skills">Навички</a></li>
+            <li><a href="#portfolio">Портфоліо</a></li>
+            <li><a href="#contact">Контакти</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>Про мене</h2>
+            <p>Я студент, який вивчає фронтенд розробку. Цей сайт створено як частину лабораторної роботи.</p>
+            <p class="views">Переглядів сторінки: <span id="view-count">0</span></p>
+        </section>
+
+        <section id="skills">
+            <h2>Мої навички</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+
+        <section id="portfolio">
+            <h2>Портфоліо</h2>
+            <div class="portfolio-grid">
+                <a href="#" class="portfolio-item">
+                    <img src="lab_3.png" alt="Лабораторна 3" style="width:100%; border-radius:4px; margin-bottom:10px;">
+                    <div>Лабораторна 3 (Галерея)</div>
+                </a>
+                <a href="#" class="portfolio-item">
+                    <img src="lab_6.png" alt="Лабораторна 6" style="width:100%; border-radius:4px; margin-bottom:10px;">
+                    <div>Лабораторна 6 (Форма)</div>
+                </a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Зв'язатися зі мною</h2>
+            <form id="contactForm">
+                <input type="text" id="contactName" placeholder="Ваше ім'я" required>
+                <input type="email" id="contactEmail" placeholder="Ваш email" required>
+                <textarea id="contactMessage" placeholder="Повідомлення" required></textarea>
+                <button type="submit">Надіслати</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Крупчук. Всі права захищені.</p>
+    </footer>
+
+    <script src="script_lab_7.js"></script>
+</body>
+</html>
