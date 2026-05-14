@@ -23,6 +23,6 @@ document.getElementById('btn-var7').addEventListener('click', function() {
     clicks++;
     if (clicks === 7) {
         alert("Майнкрафт!");
-        clicks = 0; 
+        clicks = 0;
     }
 });
